@@ -1,0 +1,26 @@
+.conteiner-center {
+    text-align: center;
+}
+
+.cor-p {
+    background: #C4C4C4;
+    /* ocupa tela inteira */
+    height: 100vh;
+}
+
+.caixa {
+    background: #E5E5E5;
+    width: 300px;
+    border-radius: 1px;
+}
+
+.botao {
+    background: black;
+    width: 300px;
+    color: blanchedalmond;
+    border-radius: 1px;
+}
+
+.botao-menor {
+    width: 200px;
+}
