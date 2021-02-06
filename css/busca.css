@@ -1,9 +1,22 @@
+.conteiner-perfil {
+    width: 87%;
+    margin: auto;
+}
+
 nav {
-    height: 60px;
+    height: 70px;
+}
+
+img.foto-usuario {
+    border-radius: 500px;
+    border-radius: 500px;
+    width: 80px;
+    height: 80px;
 }
 
 .inputBusca {
-    width: 635px;
+    width: 700px;
+    background: #F4F4F4;
 }
 
 .container {
@@ -11,11 +24,27 @@ nav {
     text-align: center;
 }
 
-.conteiner-perfil {
-    width: 90%;
-    margin: auto;
-}
-
 .conteiner-perfil-telas {
     width: 90%;
+}
+
+h1.letras-pretas {
+    font-size: 45px;
+}
+
+.letras-pretas {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.letra-negrito {
+    font-weight: bold;
+}
+
+.texto-conteiner {
+    width: 70%;
+    margin: auto;
 }
