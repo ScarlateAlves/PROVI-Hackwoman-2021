@@ -5,7 +5,7 @@ const conexao = mysql.createConnection({
     port:3306, 
     user: 'root',  
     password:'password' , 
-    database: 'aula-db'
+    database: 'provihack-db'
 })
 
 module.exports = conexao
