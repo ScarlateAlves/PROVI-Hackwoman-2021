@@ -83,3 +83,12 @@ h2 {
     background-image: url(../imagens/mail.png);
     background-repeat: no-repeat;
 }
+
+.links-conteiner-principal {
+    font-size: 20px;
+}
+
+.links-conteiner {
+    margin: auto;
+    width: 70%;
+}
