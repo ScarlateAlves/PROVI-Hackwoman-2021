@@ -22,7 +22,9 @@
         <div class="conteiner-perfil">
             <nav class="d-flex d-flex justify-content-between mt-3">
                 <a><img src='../imagens/logo horizontal rosa.png' width="140px"></a>
-                <img class="foto-usuario" src="../imagens/pp.jpg" alt="foto">
+
+                <a href="./perfilVoluntario.html"> <img class="foto-usuario" src="../imagens/pp.jpg" alt="foto"></a>
+
             </nav>
             <div class="container conteiner-proposta mt-5">
                 <div class="texto-conteiner">
@@ -36,23 +38,18 @@
                     <a href=""> <span class="letras-pretas">Área de atuação</span></a>
                 </div>
                 <div class="form-group d-flex justify-content-center">
-                    <input type="text " class="form-control caixa imagem-pesquisa inputBusca border-0" id="email" placeholder="   Digite o que procura">
+                    <input type="text " class="form-control caixa imagem-pesquisa inputBusca border-0"  placeholder="   Digite o que procura"  type="text" name="nome" id="nome" onkeyup="controladora.adiciona()" >
                 </div>
 
             </div>
 
             <h2 class="mt-5">Vagas para seu perfil</h2>
             <div class="conteiner-perfil-telas d-flex flex-rowd-flex justify-content-around" id="telas">
-                <div class="container-vagas">
-                    <p>vaga</p>
+                <div class="container-vagas" >
+                    <p id="no">vaga</p>
+                    <p id="texto"></p>
                 </div>
-                <div class="container-vagas">
-                    <p>vaga</p>
-                </div>
-                <div class="container-vagas">
-                    <p>vaga</p>
-                </div>
-
+               
             </div>
         </div>
         <footer class="mt-5">
@@ -95,6 +92,12 @@
             </div>
 
         </footer>
+        <script src="../models/model-ong.js"></script>
+        <script src="../view//view-usuario.js"></script>
+        <script src="../controllers/ong-controller.js"></script>
+        <script>
+            let controladora = new ControllerGit()
+        </script>
 
     </body>
 

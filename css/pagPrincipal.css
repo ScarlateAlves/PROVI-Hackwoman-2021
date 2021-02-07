@@ -9,6 +9,7 @@ header {
 #opcoesHeader {
     display: flex;
     flex-direction: row;
+    margin: 20px 20px;
 }
 
 .nav-link {
@@ -125,9 +126,19 @@ header {
 
 .quartoContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+}
+
+.lista4 {
+    width: 295px;
+}
+
+.num {
+    background-color: #4EA1D3;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
 }
 
 #quintaDiv {
@@ -174,6 +185,14 @@ footer {
 
 .infoFooter {
     width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+}
+
+#redesSociais {
+    margin-left: 25px;
 }
 
 .rede {
@@ -182,8 +201,10 @@ footer {
 }
 
 #icones {
+    margin: 30px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .ancorasMockadas {
