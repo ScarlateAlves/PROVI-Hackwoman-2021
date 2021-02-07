@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/cadastro2.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="titulo-pag-cadastro">
+        <h6 id="titulo">Dados pessoais</h6>
+    </div>
+
+    <div id="formulario-dois">
+        <h6 id="sub-titulo">Para fazer o cadastro precisamos solicitar algumas informações básicas sobre você, mas não se preocupe suas informações estão seguras e o formulário é super rápido.</h6>
+
+        <form class="row g-10">
+            <div class="col-7">
+                <label for="cpf" class="form-label">Qual seu CPF?</label><br>
+                <small class="small-text">Informar o CPF é uma medida segura para validar o seu perfil, evitar cadastros duplicados, preservar sua privacidade e garantir a qualidade de todo o serviço oferecido pelo nosso site.</small>
+                <input type="text" class="form-control input cpf" placeholder="000.000.000-00">
+            </div>
+            <div class="col-7">
+                <label for="cpf" class="form-label">Inclua seu LinkedIn e GitHub (opcional) </label><br>
+                <div class="texto-img"><img src="../imagens/linkedin.png" id="img-linkedin"><input type="text" class="form-control input" placeholder="https://"></div>
+                <div class="texto-img"><img src="../imagens/github.png" id="img-github"><input type="text" class="form-control input" placeholder="https://"></div>
+                <input type="text" class="form-control input outra-rede" placeholder="https://">
+            </div>
+            <div class="col-md-6">
+                <label for="areas-interesse" class="form-label">Quais são suas áreas de atuação?</label>
+                <br><small class="small-text">Informe em qual segmento você deseja iniciar sua carreira ou fazer a transição através do case de portfólio.</small><br>
+            </div>  
+            <small class="small-label">Inovação</small><br>
+            <div  class="container-bts">
+                <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+                <label class="btn btn-secondary" for="option1">UX Design</label>
+                <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+                <label class="btn btn-secondary" for="option2">UI Design</label>
+                <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
+                <label class="btn btn-secondary" for="option3">UX Research</label>
+                <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
+                <label class="btn btn-secondary" for="option4">UX Writing</label>
+            </div>
+            <br><small class="small-label">Tecnologia</small><br>
+            <div class="container-bts">
+                <input type="radio" class="btn-check" name="options" id="option5" autocomplete="off" checked>
+                <label class="btn btn-secondary" for="option5">Frontend</label>
+                <input type="radio" class="btn-check" name="options" id="option6" autocomplete="off">
+                <label class="btn btn-secondary" for="option6">Backend</label>
+                <input type="radio" class="btn-check" name="options" id="option7" autocomplete="off">
+                <label class="btn btn-secondary" for="option7">Dados</label>
+                <input type="radio" class="btn-check" name="options" id="option8" autocomplete="off">
+                <label class="btn btn-secondary" for="option8">OA</label>
+
+            </div>
+            <div class="col-md-6">
+                <label for="areas-interesse" class="form-label">Quais são suas áreas de atuação?</label><br>
+                
+                <div class="container-bts">
+                <input type="radio" class="btn-check" name="options1" id="option9" autocomplete="off" checked>
+                <label class="btn btn-secondary" for="option9">Remoto</label>
+                <input type="radio" class="btn-check" name="options1" id="option10" autocomplete="off">
+                <label class="btn btn-secondary" for="option10">Presencial</label>
+                </div>
+
+            </div>
+            
+        </form>
+    </div>
+    <div class="col-20 btn-final">
+        <button type="submit" class="btn btn-continuar btn-primary">Continuar</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
