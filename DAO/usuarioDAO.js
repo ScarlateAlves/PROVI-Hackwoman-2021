@@ -40,7 +40,7 @@ class UsuarioDAO {
     }
 
     static alterarUsuarioINBD(res, parametro) {
-        const sql = `UPDATE usuario SET  WHERE cpf = ? `
+        const sql = `UPDATE usuario SET cpf=COALESCE(?,cpf), nome=COALESCE(?,nome), email=COALESCE(?,email) WHERE ID = ? `
         bd.query(sql, parametros, function(err, result) {
             if (err) {
                 res.status(400).json(err)
