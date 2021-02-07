@@ -24,20 +24,17 @@ img.foto-usuario {
     text-align: center;
 }
 
-.conteiner-perfil-telas {
-    width: 90%;
-}
-
 h1.letras-pretas {
     font-size: 45px;
 }
 
 .letras-pretas {
     font-family: 'Poppins', sans-serif;
+    color: black;
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .letra-negrito {
@@ -47,4 +44,18 @@ h2 {
 .texto-conteiner {
     width: 70%;
     margin: auto;
+}
+
+.imagem-pesquisa {
+    background-image: url(../imagens/magnifying-glass.png);
+    background-repeat: no-repeat;
+}
+
+.conteiner-perfil-telas {}
+
+.container-vagas {
+    background: #EDEDED;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
 }

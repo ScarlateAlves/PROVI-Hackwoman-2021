@@ -1,0 +1,33 @@
+.geral {
+    width: 100%;
+}
+
+.conteiner {
+    background: #EBF3F5;
+    width: 90%;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.conteiner-maior {
+    background: #EBF3F5;
+    width: 90%;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.conteiner-principal {
+    width: 100%;
+}
+
+.conteiner-v {
+    width: 11%;
+    background: #E85A71;
+}
+
+img.foto-usuario {
+    border-radius: 500px;
+    border-radius: 500px;
+    width: 80px;
+    height: 80px;
+}
