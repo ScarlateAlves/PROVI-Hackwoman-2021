@@ -23,6 +23,8 @@
 .conteiner-v {
     width: 11%;
     background: #E85A71;
+    text-align: center;
+    height: 100vh
 }
 
 img.foto-usuario {
@@ -30,4 +32,8 @@ img.foto-usuario {
     border-radius: 500px;
     width: 80px;
     height: 80px;
+}
+
+.icone-img {
+    width: 70px;
 }
