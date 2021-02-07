@@ -1,9 +1,26 @@
+body {
+    font-family: 'Poppins';
+}
+
+.conteiner-perfil {
+    width: 87%;
+    margin: auto;
+}
+
 nav {
-    height: 60px;
+    height: 70px;
+}
+
+img.foto-usuario {
+    border-radius: 500px;
+    border-radius: 500px;
+    width: 80px;
+    height: 80px;
 }
 
 .inputBusca {
-    width: 635px;
+    width: 700px;
+    background: #F4F4F4;
 }
 
 .container {
@@ -11,11 +28,47 @@ nav {
     text-align: center;
 }
 
-.conteiner-perfil {
-    width: 90%;
+h1 {
+    font-size: 45px;
+    font-family: 'Poppins';
+}
+
+.letras-pretas {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.letra-negrito {
+    font-weight: bold;
+}
+
+.texto-conteiner {
+    width: 70%;
     margin: auto;
 }
 
-.conteiner-perfil-telas {
-    width: 90%;
+.imagem-pesquisa {
+    background-image: url(../imagens/magnifying-glass.png);
+    background-repeat: no-repeat;
+}
+
+.container-vagas {
+    background: #EDEDED;
+    width: 300px;
+    height: 375px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+#telas{
+ padding: 70px;
 }

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/cadastro2.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <a><img src='../imagens/logo horizontal rosa.png' width="140px"></a>
+
+        </div>
+        <div id="opcoesHeader">
+            <a class="nav-link" active aria-current="page" href="#">Quero ser voluntário</a>
+            <a class="nav-link" href="#">Sou uma ONG</a>
+            <a class="nav-link" href="#">Empresas parceiras</a>
+        </div>
+        <div>
+            <a class="nav-link" href="../html/login.html"><button class="botaoBrancoAzul">Fazer Login</button></a>
+        </div>
+    </header>
+
+    <div id="titulo-pag-cadastro">
+        <h6 id="titulo">Dados pessoais</h6>
+    </div>
+
+    <div id="formulario-dois">
+        <h6 id="sub-titulo">Para fazer o cadastro precisamos solicitar algumas informações básicas sobre você, mas não se preocupe suas informações estão seguras e o formulário é super rápido.</h6>
+
+        <form class="row g-10">
+            <div class="col-7">
+                <label for="cpf" class="form-label">Qual seu CPF?</label><br>
+                <small class="small-text">Informar o CPF é uma medida segura para validar o seu perfil, evitar cadastros duplicados, preservar sua privacidade e garantir a qualidade de todo o serviço oferecido pelo nosso site.</small>
+                <input type="text" class="form-control input cpf" placeholder="000.000.000-00">
+            </div>
+            <div class="col-7">
+                <label for="cpf" class="form-label">Inclua seu LinkedIn e GitHub (opcional) </label><br>
+                <div class="texto-img"><img src="../imagens/linkedin.png" id="img-linkedin"><input type="text" class="form-control input" placeholder="https://"></div>
+                <div class="texto-img"><img src="../imagens/github.png" id="img-github"><input type="text" class="form-control input" placeholder="https://"></div>
+                <input type="text" class="form-control input outra-rede" placeholder="https://">
+            </div>
+            <div class="col-md-6">
+                <label for="areas-interesse" class="form-label">Quais são suas áreas de atuação?</label>
+                <br><small class="small-text">Informe em qual segmento você deseja iniciar sua carreira ou fazer a transição através do case de portfólio.</small><br>
+            </div>
+            <small class="small-label">Inovação</small><br>
+            <div class="container-bts">
+                <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked>
+                <label class="btn btn-secondary" for="option1">UX Design</label>
+                <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+                <label class="btn btn-secondary" for="option2">UI Design</label>
+                <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
+                <label class="btn btn-secondary" for="option3">UX Research</label>
+                <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
+                <label class="btn btn-secondary" for="option4">UX Writing</label>
+            </div>
+            <br><small class="small-label">Tecnologia</small><br>
+            <div class="container-bts">
+                <input type="radio" class="btn-check" name="options" id="option5" autocomplete="off" checked>
+                <label class="btn btn-secondary" for="option5">Frontend</label>
+                <input type="radio" class="btn-check" name="options" id="option6" autocomplete="off">
+                <label class="btn btn-secondary" for="option6">Backend</label>
+                <input type="radio" class="btn-check" name="options" id="option7" autocomplete="off">
+                <label class="btn btn-secondary" for="option7">Dados</label>
+                <input type="radio" class="btn-check" name="options" id="option8" autocomplete="off">
+                <label class="btn btn-secondary" for="option8">OA</label>
+
+            </div>
+            <div class="col-md-6">
+                <label for="areas-interesse" class="form-label">Quais são suas áreas de atuação?</label><br>
+
+                <div class="container-bts">
+                    <input type="radio" class="btn-check" name="options1" id="option9" autocomplete="off" checked>
+                    <label class="btn btn-secondary" for="option9">Remoto</label>
+                    <input type="radio" class="btn-check" name="options1" id="option10" autocomplete="off">
+                    <label class="btn btn-secondary" for="option10">Presencial</label>
+                </div>
+
+            </div>
+
+        </form>
+
+        <div id="perfil">
+            <div id="inserirFoto">
+                <p>Insira sua foto (Opcional)</p>
+                <img src="../imagens/icone-usu.png">
+                <input type="radio" class="btn-check" name="options1" id="option9" autocomplete="off" checked>
+                <label class="btn btn-secondary" for="option9">Selecione</label>
+            </div>
+
+            <h6>Faça um breve resumo sobre você! (Opcional)</h6>
+            <input type="text" class="form-control input cpf" maxlength="300" placeholder="Limite: 300 caracteres">
+        </div>
+
+
+
+
+
+    </div>
+    <div class="col-20 btn-final">
+        <a href="./cadastroSucesso.html"><button  type="submit" class="btn btn-continuar btn-primary">Concluir</button></a>
+    </div>
+
+    <footer>
+
+        <div id="colunaFooter">
+            <div id="logo" class="infoFooter">
+
+                <img src="../imagens/logo horizontal branco.png" width="140px">
+                <p>Através do engajamento social, apoiamos profissionais em início de carreira a ganhar experiência e se conectar com empresas parceiras.</p>
+
+            </div>
+            <div class="infoFooter">
+                <h5 id="institucional">
+                    Institucional
+                </h5>
+                <a href="..." class="ancorasMockadas">Quero trabalhar num projeto</a>
+                <a href="..." class="ancorasMockadas">Quero contratar profissionais</a>
+                <a href="..." class="ancorasMockadas">Quero cadastrar minha ONG</a>
+                <a href="..." class="ancorasMockadas">Trabalhe conosco</a>
+            </div>
+            <div class="infoFooter" id=>
+                <h5 id="">
+                    Nossas redes sociais
+                </h5>
+                <div id="pt-3">
+                    <a>
+                        <img src="../imagens/instagram.png" class='m-2 mt-4'>
+                    </a>
+                    <a>
+                        <img src="../imagens/linkedin.png" class='m-2 mt-4'>
+                    </a>
+                    <a>
+                        <img src="../imagens/facebook.png" class='m-2 mt-4'>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="copyrights">
+            © 2021 Todos os direitos reservados
+        </div>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src='../js/domCadastroSucesso.js'></script>
+
+</body>
+
+</html>

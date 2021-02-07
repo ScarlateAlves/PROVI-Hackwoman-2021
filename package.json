@@ -1,10 +1,10 @@
 {
-  "name": "PROVI-HACKWOMAN",
+  "name": "provi-hackwoman",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/carolinenoronha/PROVI-Hackwoman-2021/issues"
   },
-  "homepage": "https://github.com/carolinenoronha/PROVI-Hackwoman-2021#readme"
+  "homepage": "https://github.com/carolinenoronha/PROVI-Hackwoman-2021#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "passport": "^0.4.1",
+    "start": "^5.1.0"
+  }
 }
