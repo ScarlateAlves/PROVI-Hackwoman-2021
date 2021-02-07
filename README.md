@@ -11,19 +11,29 @@
 #### Através do cadastro das entidades citadas (desenvolvedores, ONG's, empresas), candidatos podem escolher os projetos com que mais se identificam. Caso um projeto receba mais de um interessado, a ONG é acionada para saber se tem alguma preferência de acordo com o perfil pessoal do desenvolvedor.
 ####  As empresas terão acesso ao perfil dos candidatos, bem como aos projetos por eles realizados. Nossa ideia é que este acesso seja pago, mas apenas para garantir a manutenção do serviço e a aquisição de mentores para ajudar os desenvolvedores juniores.
 
-
 ### Tecnologias utilizadas: 
-#### HTML5, CSS3, Boostrap, JavaScript, MySQL, Node.js 
+##### HTML5, CSS3, Boostrap, JavaScript, MySQL, Node.js
 
-### Objetivos técnicos da plataforma: 
+### Objetivos técnicos da plataforma:
 #### - Abrigar dados de perfil dos desenvolvedores para avaliação das empresas e das ONG's
 #### - Abrigar dados das ONG's para a escolha dos projetos pelos desenvolvedores
 #### - Apresentar uma interface objetiva para que todos os processos sejam realizados com a maior facilidade possível para todos os envolvidos
 
 ### Desafios: 
-#### Devido ao pouco tempo para a realização do desafio, não foi possível estruturar completamente o back-end para armazenamento de dados
+#### Devido ao pouco tempo para a realização do desafio, não foi possível estruturar completamente o back-end para armazenamento de dados.
 
-### Equipe: 
+### Pastas
+
+#### - DAO: Abstração de acesso aos dados
+#### - Controllers: Disposição das rotas para operações de CRUD(manipulação e leitura de dados)
+#### - CSS: Estilização das páginas
+#### - HTML: Estruturação das páginas
+#### - Imagens: Imagens e ícones utilizados nas páginas
+#### - Infraestrutura: Ambientação para execução do back-end
+#### - JS: Funcionalidades das páginas
+#### - Models: Instância de entidades dos bancos de dados
+
+### Equipe:
 ##### [Amanda Cacholi: Dados](https://www.linkedin.com/in/amandacacholi/) 
 
 ##### [Caroline Noronha: Desenvolvedora Front-end](https://www.linkedin.com/in/caroline-noronha-teixeira/) 
