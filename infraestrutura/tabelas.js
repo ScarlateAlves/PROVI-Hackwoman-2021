@@ -2,6 +2,7 @@ const conexao = require('./conexao')
 
 class Tabelas {
 
+
     init(conexao) {
         this.conexao = conexao
     }
@@ -18,6 +19,7 @@ class Tabelas {
         })
     }
 
+
     criarOng() {
         const sql = 'CREATE TABLE IF NOT EXISTS ONG (nome varchar(100), segmento varchar(100), pretensao varchar(100));'
 
@@ -29,6 +31,7 @@ class Tabelas {
             }
         })
     }
+
 }
 
 

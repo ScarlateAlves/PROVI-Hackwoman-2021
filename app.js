@@ -1,4 +1,3 @@
-const express = require('express')
 const app = express();
 const bodyparser = require('body-parser')
 const routes = require('./router')
@@ -32,3 +31,4 @@ app.get('/ong', (req, res) => {
 
 
 app.listen(porta, () => console.log(`[Informação]: Servidor rodando na porta: ${porta}`))
+

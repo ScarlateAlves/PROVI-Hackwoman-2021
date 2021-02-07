@@ -1,8 +1,7 @@
-const { response } = require('express')
+const {response} = require('express')
 const bd = require('../infraestrutura/conexao')
 
 class UsuarioDAO {
-
 
     static buscaUsuariosInBD(res) {
         const sql = 'SELECT * FROM USUARIO';
@@ -62,4 +61,6 @@ class UsuarioDAO {
     }
 
 }
+
+
 module.exports = UsuarioDAO

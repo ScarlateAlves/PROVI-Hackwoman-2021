@@ -11,12 +11,15 @@ class Controller {
         return ((req, res) => {
             UsuarioDAO.buscaUsuariosInBD(res)
         })
+
     }
 
     static criarUsuario() {
         return (req, resp) => {
+
             let parametro = [req.body.cpf, req.body.nome, req.body.email, req.body.senha, req.body.data_nascimento, req.body.genero, req.body.area_interesse, req.body.formacao, req.body.area_atuacao, req.body.sobre_usuario, req.body.github, req.body.linkedin, req.body.tipo_trabalho]
             UsuarioDAO.criaUsuarioInBD(resp, parametro)
+
         }
 
     }
@@ -24,6 +27,7 @@ class Controller {
 
     static deletarUsuario() {
         return (req, resp) => {
+
             UsuarioDAO.deleteUsuarioInBD(resp, req.params.cpf)
         }
     }
@@ -46,6 +50,7 @@ class Controller {
             }
         })
     }
+
 
 }
 
