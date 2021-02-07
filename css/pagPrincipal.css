@@ -4,8 +4,10 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 25px;
+
     font-family: 'Poppins';
 }
+
 
 
 #opcoesHeader{
@@ -166,3 +168,5 @@ footer{
 #icones{
     display: inline-flex;
 }
+
+
