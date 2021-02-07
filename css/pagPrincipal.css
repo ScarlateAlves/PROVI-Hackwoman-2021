@@ -33,7 +33,10 @@ header {
     color: #FFFFFF;
     font-family: 'Poppins';
     border-radius: 30px;
-    padding: 10px;
+    padding: 10px;  
+    width: 185px;
+    height: 50px;    
+
 }
 
 .botaoBrancoRosa {
@@ -43,6 +46,8 @@ header {
     font-family: 'Poppins';
     border-radius: 30px;
     padding: 10px;
+    width: 185px;
+    height: 50px;
 }
 
 .botaoBrancoAzul {
@@ -52,6 +57,8 @@ header {
     font-family: 'Poppins';
     border-radius: 30px;
     padding: 10px;
+    width: 185px;
+    height: 50px;
 }
 
 #segundaDiv {
@@ -66,7 +73,12 @@ header {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+<<<<<<< HEAD
     padding: 100px;
+=======
+    padding: 20px 100px 20px 100px;
+
+>>>>>>> 6d1e1555b928f05821ccfce8291f40c0c4a04994
 }
 
 .imagensSec {
@@ -104,7 +116,24 @@ header {
     text-align: center;
 }
 
+<<<<<<< HEAD
 #quartaLista {
+=======
+#quartaLista{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#quartoTexto{
+    display: flex;
+    margin: 5% 10% 5% 10%;
+    align-items: center;
+}
+
+.quartoContainer{
+>>>>>>> 6d1e1555b928f05821ccfce8291f40c0c4a04994
     display: flex;
     flex-direction: row;
     align-items: center;
