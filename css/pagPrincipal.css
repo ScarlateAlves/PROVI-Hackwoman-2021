@@ -4,10 +4,8 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 25px;
-
     font-family: 'Poppins';
 }
-
 
 
 #opcoesHeader{
@@ -105,8 +103,19 @@ font-family: 'Poppins';
     margin-left: 115px;
 }
 
-
 #quartaDiv{
+    margin-top: 45px;
+    text-align: center;
+}
+
+#quartaLista{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#quintaDiv{
     padding: 45px;
     font-family: 'Poppins';
 
@@ -126,6 +135,7 @@ font-family: 'Poppins';
     max-width: 30%;
     align-items: center;
     padding: 0px;
+    width: 30%;
 }
 
 footer{
@@ -161,12 +171,20 @@ footer{
 }
 
 .rede{
-    margin: 10%;
-    padding:0;
+    margin: auto;
+    padding:0px;
 }
 
 #icones{
-    display: inline-flex;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
+.ancorasMockadas{
+    color: #FFFFFF;
+    text-decoration: none;
 
+
+}
