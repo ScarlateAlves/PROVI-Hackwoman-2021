@@ -2,7 +2,6 @@ const { response } = require('express')
 
 const Usuario = require('../models/usuario.js')
 const UsuarioDAO = require('../DAO/usuarioDAO')
-// const { response } = require('express')
 
 
 
