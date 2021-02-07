@@ -7,7 +7,7 @@ class UsuarioDAO {
 
         const sql = 'SELECT * FROM usuario'
         await bd.query(sql , (err, rows) => {
-                err ? err : console.log(rows)
+                err ? err : resp.send(rows)
         })
     }
 
@@ -20,7 +20,7 @@ class UsuarioDAO {
           err ? err : console.log("Usuário inserido com sucesso!" + result);
         });
       };
-    
+
     static async deleteUsuarioInBD(cpf, resp, req){
         const sql = `DELETE FROM usuario WHERE cpf = ${cpf}`
         await bd.query(sql, function(err, result){
@@ -34,7 +34,23 @@ class UsuarioDAO {
             err ? err : console.log("Usuário alterado com sucesso!")
         })
     }
-    
+
+    static async validaLogin(nome, senha, resp){
+ 
+        const nomeUsuario = `SELECT * FROM usuario WHERE nome = ${nome}`
+        const senhaUsuario = `SELECT * FROM usuario WHERE senha = ${senha}`
+
+        const loginUsuario = document.querySelector("#nome").value
+        const passwordUsuario = document.querySelector('#senha').value 
+        await bd.query(nomeUsuario, senhaUsuario, function (err, result ){ 
+            nomeUsuario === loginUsuario &&  senhaUsuario === passwordUsuario ? resp.redirect('/index.html') : resp.send(err)
+           
+        })
+
+
+    }
+
+
 }
 
 
