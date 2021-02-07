@@ -12,7 +12,7 @@ class UsuarioDAO {
     }
 
     static async criaUsuarioInBD(resp, req){
-        const sql = `INSERT INTO usuario (cpf, nome, senha, data_nascimento, genero, area_interesse,
+        const sql = `INSERT INTO usuario (cpf, nome, email, senha, data_nascimento, genero, area_interesse,
              formacao, area_atuacao, sobre_usuario, github, linkedin, tipo_trabalho) 
              VALUES ('','', '', '', '', '', '', '', '', '', '', '')`
 
