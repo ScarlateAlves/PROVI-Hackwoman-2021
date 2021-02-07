@@ -15,16 +15,16 @@
 ### Tecnologias utilizadas: 
 ##### HTML5, CSS3, Boostrap, JavaScript, MySQL, Node.js
 
-### Objetivos técnicos da plataforma:
+### Objetivos técnicos da plataforma: 
 #### - Abrigar dados de perfil dos desenvolvedores para avaliação das empresas e das ONG's
 #### - Abrigar dados das ONG's para a escolha dos projetos pelos desenvolvedores
 #### - Apresentar uma interface objetiva para que todos os processos sejam realizados com a maior facilidade possível para todos os envolvidos
 
-### Desafios: ###
+
+### Desafios: 
 #### Devido ao pouco tempo para a realização do desafio, não foi possível estruturar completamente o back-end para armazenamento de dados.
 
 ### Pastas
-
 #### - DAO: Abstração de acesso aos dados
 #### - Controllers: Disposição das rotas para operações de CRUD(manipulação e leitura de dados)
 #### - CSS: Estilização das páginas
@@ -34,7 +34,7 @@
 #### - JS: Funcionalidades das páginas
 #### - Models: Instância de entidades dos bancos de dados
 
-### Equipe: ###
+### Equipe: 
 ##### [Amanda Cacholi: Dados](https://www.linkedin.com/in/amandacacholi/) 
 
 ##### [Caroline Noronha: Desenvolvedora Front-end](https://www.linkedin.com/in/caroline-noronha-teixeira/) 
