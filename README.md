@@ -11,7 +11,6 @@
 #### Através do cadastro das entidades citadas (desenvolvedores, ONG's, empresas), candidatos podem escolher os projetos com que mais se identificam. Caso um projeto receba mais de um interessado, a ONG é acionada para saber se tem alguma preferência de acordo com o perfil pessoal do desenvolvedor.
 ####  As empresas terão acesso ao perfil dos candidatos, bem como aos projetos por eles realizados. Nossa ideia é que este acesso seja pago, mas apenas para garantir a manutenção do serviço e a aquisição de mentores para ajudar os desenvolvedores juniores.
 
-
 ### Tecnologias utilizadas: 
 ##### HTML5, CSS3, Boostrap, JavaScript, MySQL, Node.js
 
