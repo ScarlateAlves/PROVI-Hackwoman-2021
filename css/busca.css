@@ -24,8 +24,8 @@ img.foto-usuario {
     text-align: center;
 }
 
-h1.letras-pretas {
-    font-size: 45px;
+h1 {
+    font-size: 49px;
 }
 
 .letras-pretas {
@@ -33,8 +33,13 @@ h1.letras-pretas {
     color: black;
 }
 
+a {
+    text-decoration: none;
+}
+
 h2 {
     font-size: 20px;
+    font-weight: bold;
 }
 
 .letra-negrito {
@@ -50,8 +55,6 @@ h2 {
     background-image: url(../imagens/magnifying-glass.png);
     background-repeat: no-repeat;
 }
-
-.conteiner-perfil-telas {}
 
 .container-vagas {
     background: #EDEDED;
