@@ -1,3 +1,7 @@
+body {
+    font-family: 'Poppins';
+}
+
 .conteiner-perfil {
     width: 87%;
     margin: auto;
@@ -25,11 +29,11 @@ img.foto-usuario {
 }
 
 h1 {
-    font-size: 49px;
+    font-size: 45px;
+    font-family: 'Poppins';
 }
 
 .letras-pretas {
-    font-family: 'Poppins', sans-serif;
     color: black;
 }
 
