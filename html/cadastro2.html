@@ -7,7 +7,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/cadastro2.css">
+<<<<<<< HEAD
     <title>Cadastre-se</title>
+=======
+    <title>Cadastro</title>
+>>>>>>> a48a814e251911d184f533340e82fa4cccb5652e
 </head>
 
 <body>
@@ -86,9 +90,26 @@
             </div>
             
         </form>
+    
+        <div id = "perfil">
+            <div id = "inserirFoto">
+                <p>Insira sua foto (Opcional)</p>
+                <img src= "../imagens/icone-usu.png">
+                <input type="radio" class="btn-check" name="options1" id="option9" autocomplete="off" checked>
+                <label class="btn btn-secondary" for="option9">Selecione</label>
+            </div>
+
+            <h6>Faça um breve resumo sobre você! (Opcional)</h6>
+            <input type="text" class="form-control input cpf" maxlength="300" placeholder="Limite: 300 caracteres">
+        </div>
+    
+        
+    
+    
+    
     </div>
     <div class="col-20 btn-final">
-        <button type="submit" class="btn btn-continuar btn-primary">Continuar</button>
+        <button id ="btnConcluir" type="submit" class="btn btn-continuar btn-primary">Concluir</button>
     </div>
 
     <footer>
@@ -131,11 +152,14 @@
         </div>
 
     </footer>
-
+    
+    
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
+    <script src='../js/domCadastroSucesso.js'></script>
+    
 </body>
 
 </html>

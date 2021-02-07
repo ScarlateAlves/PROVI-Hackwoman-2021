@@ -184,6 +184,11 @@ footer {
     width: 25%;
 }
 
+#perfil{
+ font-family: 'Poppins';
+ margin-top: 15px;
+}
+
 .rede {
     margin: auto;
     padding: 0px;
