@@ -2,17 +2,17 @@ const conexao = require('./conexao')
 
 class Tabelas {
 
-    init(conexao){
+    init(conexao) {
         this.conexao = conexao
     }
 
-    criarUsuario(){
-        const sql = 'CREATE TABLE IF NOT EXISTS `usuario`(cpf varchar(11), nome varchar(100), senha varchar(50), data_nascimento date, genero varchar(50), area_interesse varchar(100), formacao varchar(100), area_atuacao varchar(100), sobre_usuario varchar(250), github varchar(250), linkedin varchar(250), tipo_trabalho varchar(50));'
-        
+    criarUsuario() {
+        const sql = 'CREATE TABLE IF NOT EXISTS `usuario`(cpf varchar(11), nome varchar(100), email varchar(100), senha varchar(50), data_nascimento date, genero varchar(50), area_interesse varchar(100), formacao varchar(100), area_atuacao varchar(100), sobre_usuario varchar(250), github varchar(250), linkedin varchar(250), tipo_trabalho varchar(50));'
+
         this.conexao.query(sql, (erro) => {
-            if(erro){
+            if (erro) {
                 console.log(erro)
-            }else{
+            } else {
                 console.log('Tabela >> Usuario<< criada com sucesso!')
             }
         })
