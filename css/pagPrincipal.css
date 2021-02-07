@@ -9,6 +9,7 @@ header {
 #opcoesHeader {
     display: flex;
     flex-direction: row;
+    margin: 20px 20px;
 }
 
 .nav-link {
@@ -67,6 +68,8 @@ header {
     justify-content: space-between;
     flex-direction: row;
     padding: 100px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 .imagensSec {
@@ -108,7 +111,24 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.quartoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista4 {
+    width: 295px;
+}
+
+.num {
+    background-color: #4EA1D3;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
 }
 
 #quintaDiv {
