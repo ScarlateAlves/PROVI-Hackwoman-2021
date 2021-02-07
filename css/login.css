@@ -1,26 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+.letras {
+    color: cornsilk;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.letra-preta {
+    color: black;
+}
+
 .conteiner-center {
     text-align: center;
 }
 
 .cor-p {
-    background: #C4C4C4;
+    background: #E85A71;
     /* ocupa tela inteira */
+    height: 100vh;
+}
+
+.cor-a {
+    background: #4EA1D3;
     height: 100vh;
 }
 
 .caixa {
     background: #E5E5E5;
-    width: 300px;
+    width: 400px;
+    height: 40px;
     border-radius: 1px;
+}
+
+.cor-input {
+    background: white;
 }
 
 .botao {
     background: black;
-    width: 300px;
-    color: blanchedalmond;
+    width: 280px;
+    height: 50px;
+    color: white;
+    border-radius: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cor-botao-azul {
+    background: #4EA1D3;
+    border-radius: 20px;
+}
+
+.cor-botao-rosa {
+    background: #E85A71;
+    border-radius: 30px;
+}
+
+.botao-preto {
+    background: black;
+    width: 400px;
+    height: 50px;
+    color: white;
     border-radius: 1px;
 }
 
-.botao-menor {
-    width: 200px;
+.letra-negrito {
+    font-weight: bold;
+}
+
+.imagem-senha {
+    background-image: url(../imagens/senha.png);
+    background-repeat: no-repeat;
+}
+
+.imagem-login {
+    background-image: url(../imagens/user.png);
+    background-repeat: no-repeat;
+}
+
+.imagem-email {
+    background-image: url(../imagens/mail.png);
+    background-repeat: no-repeat;
+}
+
+.links-conteiner-principal {
+    font-size: 20px;
+}
+
+.links-conteiner {
+    margin: auto;
+    width: 70%;
 }
