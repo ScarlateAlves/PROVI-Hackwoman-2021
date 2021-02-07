@@ -12,7 +12,7 @@
 ####  As empresas terão acesso ao perfil dos candidatos, bem como aos projetos por eles realizados. Nossa ideia é que este acesso seja pago, mas apenas para garantir a manutenção do serviço e a aquisição de mentores para ajudar os desenvolvedores juniores.
 
 ### Tecnologias utilizadas: 
-##### HTML5, CSS3, Boostrap, JavaScript, MySQL, Node.js
+#### HTML5, CSS3, Boostrap, JavaScript, MySQL, Node.js
 
 ### Objetivos técnicos da plataforma:
 #### - Abrigar dados de perfil dos desenvolvedores para avaliação das empresas e das ONG's
