@@ -20,7 +20,7 @@
 #### - Abrigar dados das ONG's para a escolha dos projetos pelos desenvolvedores
 #### - Apresentar uma interface objetiva para que todos os processos sejam realizados com a maior facilidade possível para todos os envolvidos
 
-### Desafios: ###
+### Desafios: 
 #### Devido ao pouco tempo para a realização do desafio, não foi possível estruturar completamente o back-end para armazenamento de dados.
 
 ### Pastas
@@ -34,15 +34,15 @@
 #### - JS: Funcionalidades das páginas
 #### - Models: Instância de entidades dos bancos de dados
 
-### Equipe: ###
-##### [Amanda Cacholi: Dados](https://www.linkedin.com/in/amandacacholi/) #####
+### Equipe:
+##### [Amanda Cacholi: Dados](https://www.linkedin.com/in/amandacacholi/) 
 
-##### [Caroline Noronha: Desenvolvedora Front-end](https://www.linkedin.com/in/caroline-noronha-teixeira/) #####
+##### [Caroline Noronha: Desenvolvedora Front-end](https://www.linkedin.com/in/caroline-noronha-teixeira/) 
 
-##### [Fernanda Albuquerque: UX/UI Design](https://www.linkedin.com/in/fernanda-albuquerque-789154112/) #####
+##### [Fernanda Albuquerque: UX/UI Design](https://www.linkedin.com/in/fernanda-albuquerque-789154112/) 
 
-##### [Greiciane Araújo: Desenvolvedora Back-end](https://www.linkedin.com/in/greiciane-araujo-3313431b9/) #####
+##### [Greiciane Araújo: Desenvolvedora Back-end](https://www.linkedin.com/in/greiciane-araujo-3313431b9/) 
 
-##### [Natalie Nascimento: Produto](https://www.linkedin.com/in/nlie1/) #####
+##### [Natalie Nascimento: Produto](https://www.linkedin.com/in/nlie1/) 
 
-##### [Scarlate Alves: Desenvolvedora Front-end](https://www.linkedin.com/in/scarlate-alves-518ab5127/) #####
+##### [Scarlate Alves: Desenvolvedora Front-end](https://www.linkedin.com/in/scarlate-alves-518ab5127/) 
