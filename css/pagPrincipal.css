@@ -4,6 +4,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 25px;
+    font-family: 'Poppins';
 }
 
 
@@ -20,6 +21,7 @@ header{
 #primeiraDiv{
 display: flex;
 padding: 45px;
+font-family: 'Poppins';
 }
 
 #primeiroTexto{
